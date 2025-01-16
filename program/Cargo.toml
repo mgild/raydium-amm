@@ -27,7 +27,7 @@ spl-token = { version = "4.0.0", features = ["no-entrypoint"] }
 spl-associated-token-account = { version = "2.2.0", features = [
     "no-entrypoint",
 ] }
-serum_dex = { version = "0.5.10", git = "https://github.com/mgild/openbook-dex", features = [
+serum_dex = { version = "0.5.10", git = "https://github.com/raydium-io/openbook-dex", features = [
     "no-entrypoint",
     "program",
 ] }
