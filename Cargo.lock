@@ -1631,6 +1631,7 @@ dependencies = [
  "serde_json",
  "serum_dex",
  "solana-program",
+ "solana-security-txt",
  "spl-associated-token-account",
  "spl-token 4.0.0",
  "thiserror",
@@ -1805,7 +1806,7 @@ dependencies = [
 [[package]]
 name = "serum_dex"
 version = "0.5.10"
-source = "git+https://github.com/raydium-io/openbook-dex#cff113afcec5bcf3c7aaace42d03b5d138d4328e"
+source = "git+https://github.com/raydium-io/openbook-dex#db697af23aea283e452b5fb956753171748029b5"
 dependencies = [
  "anchor-lang",
  "arrayref",
